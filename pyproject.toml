@@ -5,12 +5,12 @@ description = "A CLI program to fetch PubMed papers and filter by non-academic a
 authors = [
     {name = "Yashwanth",email = "kumaryashwanth198@gmail.com"}
 ]
-license = {text = "MIT"}
+license = "MIT"
 readme = "README.md"
 requires-python = "^3.11"
 dependencies = [
-    "biopython (>=1.85,<2.0)",
-    "pandas (>=2.2.3,<3.0.0)",
+    "biopython >=1.85",
+    "pandas >=2.0.0",
     "argparse (>=1.4.0,<2.0.0)"
 ]
 
